@@ -6,11 +6,18 @@ pour Correction:
 
 ## quetes composant:
 
-(en cours)
+composants à inspecter:
+
+- src/app/ang-un-composant
+- src/app/ang-un-bis-affichage
+  ![Alt text](src/assets/correctionsImg/capture1.png)
 
 ## quetes binding:
 
-(en cours)
+composants à inspecter:
+
+- src/app/ang-deux-bindig
+  ![Alt text](src/assets/correctionsImg/capture2.png)
 
 ## quetes directives:
 
@@ -26,6 +33,11 @@ pour Correction:
 
 ## quetes input:
 
-composants à inspecter: - src/app/ang-sept-developer - src/app/ang-sept-skill - src/app/ang-sept-input - src/app/data >>
+composants à inspecter:
+
+- src/app/ang-sept-developer
+- src/app/ang-sept-skill
+- src/app/ang-sept-input
+- src/app/data >> developer.model.ts + skill.model.ts
 
 ![Alt text](src/assets/correctionsImg/capture7.png)
