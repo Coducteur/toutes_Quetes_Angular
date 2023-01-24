@@ -20,8 +20,8 @@ composants à inspecter:
   ![Alt text](src/assets/correctionsImg/capture2.png)
 
 ## quetes directives:
-
-(en cours)
+- src/app/ang-trois-directives
+![Alt text](src/assets/correctionsImg/capture3.png)
 
 ## quetes router:
 
