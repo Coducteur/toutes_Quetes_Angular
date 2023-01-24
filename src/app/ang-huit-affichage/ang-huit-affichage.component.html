@@ -1,0 +1,8 @@
+<div class="boder-component">
+    <app-ang-huit-create-onomatopia (sendOnomatopiaToParent)="onReceiveNewOnomatopia($event)">
+    </app-ang-huit-create-onomatopia>
+
+    <ul>
+        <li *ngFor="let item of onomatopoeiaList">{{item}}</li>
+    </ul>
+</div>

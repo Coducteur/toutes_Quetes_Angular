@@ -12,6 +12,8 @@ import { AngUnBisAffichageComponent } from './ang-un-bis-affichage/ang-un-bis-af
 import { AngSeptInputComponent } from './ang-sept-input/ang-sept-input.component';
 import { AngSeptDeveloperComponent } from './ang-sept-developer/ang-sept-developer.component';
 import { AngSeptSkillComponent } from './ang-sept-skill/ang-sept-skill.component';
+import { AngHuitCreateOnomatopiaComponent } from './ang-huit-create-onomatopia/ang-huit-create-onomatopia.component';
+import { AngHuitAffichageComponent } from './ang-huit-affichage/ang-huit-affichage.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { AngSeptSkillComponent } from './ang-sept-skill/ang-sept-skill.component
     AngSeptInputComponent,
     AngSeptDeveloperComponent,
     AngSeptSkillComponent,
+    AngHuitCreateOnomatopiaComponent,
+    AngHuitAffichageComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],

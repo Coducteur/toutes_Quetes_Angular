@@ -20,8 +20,9 @@ composants à inspecter:
   ![Alt text](src/assets/correctionsImg/capture2.png)
 
 ## quetes directives:
+
 - src/app/ang-trois-directives
-![Alt text](src/assets/correctionsImg/capture3.png)
+  ![Alt text](src/assets/correctionsImg/capture3.png)
 
 ## quetes router:
 
@@ -41,3 +42,12 @@ composants à inspecter:
 - src/app/data >> developer.model.ts + skill.model.ts
 
 ![Alt text](src/assets/correctionsImg/capture7.png)
+
+## quetes output:
+
+composants à inspecter:
+
+- src/app/ang-huit-create-onomatopia
+- src/app/ang-huit-affichage
+
+![Alt text](src/assets/correctionsImg/capture8.png)
