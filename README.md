@@ -28,4 +28,4 @@ pour Correction:
 
 composants à inspecter: - src/app/ang-sept-developer - src/app/ang-sept-skill - src/app/ang-sept-input - src/app/data >>
 
-    ![<capture7>](https://drive.google.com/file/d/1BTK-Ii--1YcEvEZbonSPSGh55-7WprTD/view?usp=sharing)
+![Alt text](src/assets/correctionsImg/capture7.png)
