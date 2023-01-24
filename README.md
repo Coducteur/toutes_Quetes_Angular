@@ -1,27 +1,31 @@
-# ToutesQuetesAngular
+# ToutesQuetesAngular pour Correction :
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+Ce projet contient tout le code des quetes Angular dans un seul dossier.
 
-## Development server
+pour Correction:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## quetes composant:
 
-## Code scaffolding
+(en cours)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## quetes binding:
 
-## Build
+(en cours)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## quetes directives:
 
-## Running unit tests
+(en cours)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## quetes router:
 
-## Running end-to-end tests
+(en cours)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## quetes formulaire:
 
-## Further help
+(en cours)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## quetes input:
+
+composants à inspecter: - src/app/ang-sept-developer - src/app/ang-sept-skill - src/app/ang-sept-input - src/app/data >>
+
+    ![<capture7>](./src/assets/correctionsImg/capture7.png)
