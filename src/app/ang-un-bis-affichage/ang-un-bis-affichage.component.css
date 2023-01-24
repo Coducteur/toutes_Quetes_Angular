@@ -1,0 +1,25 @@
+/* 
+En GRID ca aurait été tellement mieux ! ^_^ 
+mais bon, il faut quand meme que je me fasse la main avec les "flexbox pour les noobs" 
+alors allons y :-) 
+*/
+
+.block {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2,
+p {
+    color: green;
+    font-weight: 800;
+}

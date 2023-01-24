@@ -1,0 +1,14 @@
+<div class="boder-component">
+    <p>ang-sept-developer works!</p>
+    <p>Firstname: {{ dev1.firstName }}</p>
+    <p>LastName: {{ dev1.lastName }}</p>
+    <p>Age: {{ dev1.age }} </p>
+    <p>Genre: {{dev1.gender}}</p>
+    <p>Biographie: {{dev1.bio}} </p>
+
+    <div class="flex-container">
+        <div *ngFor="let skill of dev1.skills">
+            <app-ang-sept-skill [skillDev]="skill"></app-ang-sept-skill>
+        </div>
+    </div>
+</div>

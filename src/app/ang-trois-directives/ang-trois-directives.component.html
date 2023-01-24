@@ -1,0 +1,19 @@
+<div class="boder-component">
+    <p>ang-trois-directives works!</p>
+    <!--The content below is only a placeholder and can be replaced.-->
+    <div>
+        <h1 [ngStyle]="{color:isAdmin ? 'red' : 'black'}">{{ title }}</h1>
+        <div class="p1">
+            <p>{{ text }}</p>
+            <p>{{ text2 }}</p>
+            <p>{{ text3 }}</p>
+        </div>
+        <button class="btn1">View</button>
+        <button class="btn2" (click)="changeBtn()" *ngIf="isAdmin">
+            {{textAdmin}}
+        </button>
+
+        <button class="btn3" (click)="changeBtn()">{{ textBool }}</button>
+        <p class="p2">{{ text4 }}</p>
+    </div>
+</div>

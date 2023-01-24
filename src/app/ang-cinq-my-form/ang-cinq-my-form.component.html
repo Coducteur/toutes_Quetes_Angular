@@ -1,0 +1,53 @@
+<div class="boder-component">
+    <p>ang-cinq-my-form works!</p>
+    <br>
+    <form #myForm="ngForm" (ngSubmit)="myForm.valid && onSubmit()">
+        <div class="test">
+            <p>Form submitted ? {{ myForm.submitted}} </p>
+            <p>Form valid ? {{ myForm.valid}}</p>
+            <p>Form invalid ? {{ myForm.invalid}}</p>
+        </div>
+        <br><br><br>
+
+        <fieldset>
+            <label for="title">Titre: </label>
+            <input type="text" name="title" id="title" [(ngModel)]="model.title" #title='ngModel' required>
+            <div *ngIf="myForm.submitted && title.errors">
+                <span *ngIf="title.errors ?.['required']">le titre est requis</span>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="quantity">Quantité: </label>
+            <input type="number" name="quantity" id="quantity" [(ngModel)]="model.quantity" #quantity='ngModel'
+                required>
+            <div *ngIf="quantity.errors">
+                <span *ngIf="myForm.submitted && title.errors ?.['required']">la quantité est requise</span>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for=" dateCommande">date de Commande: </label>
+            <input type="date" name="dateCommande" id="dateCommande" [(ngModel)]="model.dateCommande"
+                #dateCommande='ngModel' required>
+            <div *ngIf="dateCommande.errors">
+                <span *ngIf="myForm.submitted && dateCommande.errors ?.['required']">la date est requise</span>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="contactMail">Mail: </label>
+            <input type="email" name="contactMail" id="contactMail" email [(ngModel)]="model.contactMail"
+                #contactMail='ngModel' required>
+            <div *ngIf="contactMail.errors">
+                <span *ngIf="myForm.submitted && contactMail.errors ?.['required']">l'adresse mail est requise</span>
+                <span *ngIf="contactMail.errors ?.['email']">l'adresse mail doit être valide</span>
+            </div>
+        </fieldset>
+
+        <div>
+            <button type="reset">réinitialiser</button>
+            <button type="submit">validation</button>
+        </div>
+    </form>
+</div>

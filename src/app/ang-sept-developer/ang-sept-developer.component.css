@@ -1,9 +1,4 @@
-* {
-    list-style: square;
-}
-
-ul {
+.flex-container {
     display: flex;
     justify-content: space-evenly;
 }
-
