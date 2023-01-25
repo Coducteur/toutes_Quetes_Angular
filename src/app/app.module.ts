@@ -14,6 +14,8 @@ import { AngSeptDeveloperComponent } from './ang-sept-developer/ang-sept-develop
 import { AngSeptSkillComponent } from './ang-sept-skill/ang-sept-skill.component';
 import { AngHuitCreateOnomatopiaComponent } from './ang-huit-create-onomatopia/ang-huit-create-onomatopia.component';
 import { AngHuitAffichageComponent } from './ang-huit-affichage/ang-huit-affichage.component';
+import { AngDixServicesComponent } from './ang-dix-services/ang-dix-services.component';
+import { AngDixCocktailListComponent } from './ang-dix-cocktail-list/ang-dix-cocktail-list.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { AngHuitAffichageComponent } from './ang-huit-affichage/ang-huit-afficha
     AngSeptSkillComponent,
     AngHuitCreateOnomatopiaComponent,
     AngHuitAffichageComponent,
+    AngDixServicesComponent,
+    AngDixCocktailListComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],

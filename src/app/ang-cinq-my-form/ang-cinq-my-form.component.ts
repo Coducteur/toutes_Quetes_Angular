@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Order } from '../../data/order';
+import { Order } from '../../models/order';
 @Component({
   selector: 'app-ang-cinq-my-form',
   templateUrl: './ang-cinq-my-form.component.html',

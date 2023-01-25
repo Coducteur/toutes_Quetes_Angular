@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Skill } from 'src/data/skill.model';
+import { Skill } from 'src/models/skill.model';
 
 @Component({
   selector: 'app-ang-sept-skill',

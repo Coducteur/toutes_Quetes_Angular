@@ -4,50 +4,63 @@ Ce projet contient tout le code des quetes Angular dans un seul dossier.
 
 pour Correction:
 
-## quetes composant:
+## quetes 1 composant:
 
 composants à inspecter:
 
-- src/app/ang-un-composant
-- src/app/ang-un-bis-affichage
+- src\app\ang-un-composant
+- src\app\ang-un-bis-affichage
   ![Alt text](src/assets/correctionsImg/capture1.png)
 
-## quetes binding:
+## quetes 2 binding:
 
 composants à inspecter:
 
-- src/app/ang-deux-bindig
+- src\app\ang-deux-binding
   ![Alt text](src/assets/correctionsImg/capture2.png)
 
-## quetes directives:
+## quetes 3 directives:
 
-- src/app/ang-trois-directives
+- src\app\ang-trois-directives
   ![Alt text](src/assets/correctionsImg/capture3.png)
 
-## quetes router:
+## quetes 4 router:
 
 (en cours)
 
-## quetes formulaire:
+## quetes 5 formulaire:
 
 (en cours)
 
-## quetes input:
+## quetes 7 input:
 
 composants à inspecter:
 
-- src/app/ang-sept-developer
-- src/app/ang-sept-skill
-- src/app/ang-sept-input
-- src/app/data >> developer.model.ts + skill.model.ts
+- src\app\ang-sept-developer
+- src\app\ang-sept-skill
+- src\app\ang-sept-input
+- src\models\developer.model.ts
+- src\models\skill.model.ts
 
 ![Alt text](src/assets/correctionsImg/capture7.png)
 
-## quetes output:
+## quetes 8 output:
 
 composants à inspecter:
 
-- src/app/ang-huit-create-onomatopia
-- src/app/ang-huit-affichage
+- src\app\ang-huit-affichage
+- src\app\ang-huit-create-onomatopia
 
 ![Alt text](src/assets/correctionsImg/capture8.png)
+
+## quetes 10 services:
+
+composants à inspecter:
+
+- src\app\ang-dix-cocktail-list
+- src\app\ang-dix-services
+- src\models\Cocktail.model.ts
+- src\services\cocktail.service.ts
+- src\app\tests\test.spec.ts
+
+![Alt text](src/assets/correctionsImg/capture10.png)

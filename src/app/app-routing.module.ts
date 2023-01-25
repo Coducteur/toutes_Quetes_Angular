@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AngCinqMyFormComponent } from './ang-cinq-my-form/ang-cinq-my-form.component';
 import { AngDeuxBindingComponent } from './ang-deux-binding/ang-deux-binding.component';
+import { AngDixServicesComponent } from './ang-dix-services/ang-dix-services.component';
 import { AngHuitAffichageComponent } from './ang-huit-affichage/ang-huit-affichage.component';
 import { AngSeptInputComponent } from './ang-sept-input/ang-sept-input.component';
 import { AngTroisDirectivesComponent } from './ang-trois-directives/ang-trois-directives.component';
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'output',
     component: AngHuitAffichageComponent,
+  },
+  {
+    path: 'services',
+    component: AngDixServicesComponent,
   },
 ];
 

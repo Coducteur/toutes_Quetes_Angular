@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Developer } from 'src/data/developer.model';
-import { Skill } from 'src/data/skill.model';
+import { Developer } from 'src/models/developer.model';
+import { Skill } from 'src/models/skill.model';
 
 @Component({
   selector: 'app-ang-sept-developer',
