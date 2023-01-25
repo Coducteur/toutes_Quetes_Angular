@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AngCinqMyFormComponent } from './ang-cinq-my-form/ang-cinq-my-form.component';
@@ -16,6 +16,8 @@ import { AngHuitCreateOnomatopiaComponent } from './ang-huit-create-onomatopia/a
 import { AngHuitAffichageComponent } from './ang-huit-affichage/ang-huit-affichage.component';
 import { AngDixServicesComponent } from './ang-dix-services/ang-dix-services.component';
 import { AngDixCocktailListComponent } from './ang-dix-cocktail-list/ang-dix-cocktail-list.component';
+import { AngOnzeServiceBisComponent } from './ang-onze-service-bis/ang-onze-service-bis.component';
+import { AngOnzeCocktailListComponent } from './ang-onze-cocktail-list/ang-onze-cocktail-list.component';
 
 @NgModule({
   declarations: [
@@ -32,8 +34,10 @@ import { AngDixCocktailListComponent } from './ang-dix-cocktail-list/ang-dix-coc
     AngHuitAffichageComponent,
     AngDixServicesComponent,
     AngDixCocktailListComponent,
+    AngOnzeServiceBisComponent,
+    AngOnzeCocktailListComponent,
   ],
-  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

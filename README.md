@@ -65,3 +65,14 @@ composants à inspecter:
 
 ![Alt text](src/assets/correctionsImg/capture10.png)
 ![Alt text](src/assets/correctionsImg/capture10-2.png)
+
+## quetes 11 services 2:
+
+composants à inspecter:
+
+- src\app\ang-onze-cocktail-list
+- src\app\ang-onze-service-bis
+- src\assets\cocktails.json
+- src\services\cocktail2.service.ts
+
+![Alt text](src/assets/correctionsImg/capture11.png)
