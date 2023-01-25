@@ -64,3 +64,4 @@ composants à inspecter:
 - src\app\tests\test.spec.ts
 
 ![Alt text](src/assets/correctionsImg/capture10.png)
+![Alt text](src/assets/correctionsImg/capture10-2.png)
