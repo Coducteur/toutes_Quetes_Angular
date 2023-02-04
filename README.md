@@ -76,3 +76,12 @@ composants à inspecter:
 - src\services\cocktail2.service.ts
 
 ![Alt text](src/assets/correctionsImg/capture11.png)
+
+## quetes 12 services 3 - Nasa:
+
+composants à inspecter:
+
+- src\app\app-ang-douze-nasa
+- src\services\nasa.service.ts
+
+![Alt text](src/assets/correctionsImg/capture12.png)
