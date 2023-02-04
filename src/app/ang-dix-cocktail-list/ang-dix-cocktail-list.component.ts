@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Cocktail } from '../../models/Cocktail.model';
+import { cocktails } from 'src/data/cocktails-data';
 
 import { CocktailService } from '../../services/cocktail.service';
 @Component({
@@ -8,11 +9,11 @@ import { CocktailService } from '../../services/cocktail.service';
   styleUrls: ['./ang-dix-cocktail-list.component.css'],
 })
 export class AngDixCocktailListComponent {
-  cocktails: Cocktail[] = [];
+  cocktailsList: Cocktail[] = [];
 
   constructor(public cocktailService: CocktailService) {}
 
   ngOnInit() {
-    this.cocktails = this.cocktailService.getCocktails();
+    this.cocktailsList = this.cocktailService.getCocktails(cocktails);
   }
 }
